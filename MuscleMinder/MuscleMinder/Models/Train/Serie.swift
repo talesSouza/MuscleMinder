@@ -1,5 +1,5 @@
 //
-//  Exercise.swift
+//  Serie.swift
 //  MuscleMinder
 //
 //  Created by Tales Souza on 10/12/23.
