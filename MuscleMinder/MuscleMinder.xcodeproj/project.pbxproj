@@ -12,6 +12,11 @@
 		027884CF2B225C1500A02AF4 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 027884CE2B225C1500A02AF4 /* Preview Assets.xcassets */; };
 		027884DD2B225D6900A02AF4 /* MuscleMinderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 027884DC2B225D6900A02AF4 /* MuscleMinderTests.swift */; };
 		027884E52B225F0F00A02AF4 /* BaseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 027884E42B225F0F00A02AF4 /* BaseView.swift */; };
+		027884E82B26229200A02AF4 /* Train.swift in Sources */ = {isa = PBXBuildFile; fileRef = 027884E72B26229200A02AF4 /* Train.swift */; };
+		027884EA2B2623D800A02AF4 /* Exercise.swift in Sources */ = {isa = PBXBuildFile; fileRef = 027884E92B2623D800A02AF4 /* Exercise.swift */; };
+		027884EC2B2623F100A02AF4 /* CompletedTrain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 027884EB2B2623F100A02AF4 /* CompletedTrain.swift */; };
+		027884F02B26245C00A02AF4 /* CompletedExercise.swift in Sources */ = {isa = PBXBuildFile; fileRef = 027884EF2B26245C00A02AF4 /* CompletedExercise.swift */; };
+		027884F22B26249700A02AF4 /* Serie.swift in Sources */ = {isa = PBXBuildFile; fileRef = 027884F12B26249700A02AF4 /* Serie.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,6 +37,11 @@
 		027884DA2B225D6900A02AF4 /* MuscleMinderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MuscleMinderTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		027884DC2B225D6900A02AF4 /* MuscleMinderTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MuscleMinderTests.swift; sourceTree = "<group>"; };
 		027884E42B225F0F00A02AF4 /* BaseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseView.swift; sourceTree = "<group>"; };
+		027884E72B26229200A02AF4 /* Train.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Train.swift; sourceTree = "<group>"; };
+		027884E92B2623D800A02AF4 /* Exercise.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Exercise.swift; sourceTree = "<group>"; };
+		027884EB2B2623F100A02AF4 /* CompletedTrain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompletedTrain.swift; sourceTree = "<group>"; };
+		027884EF2B26245C00A02AF4 /* CompletedExercise.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompletedExercise.swift; sourceTree = "<group>"; };
+		027884F12B26249700A02AF4 /* Serie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Serie.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,6 +86,7 @@
 				027884C72B225C1400A02AF4 /* MuscleMinderApp.swift */,
 				027884E42B225F0F00A02AF4 /* BaseView.swift */,
 				027884D52B225D4500A02AF4 /* Resources */,
+				027884E62B26225400A02AF4 /* Models */,
 				027884E32B225D9D00A02AF4 /* Modules */,
 				027884CD2B225C1500A02AF4 /* Preview Content */,
 			);
@@ -111,6 +122,34 @@
 			children = (
 			);
 			path = Modules;
+			sourceTree = "<group>";
+		};
+		027884E62B26225400A02AF4 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				027884ED2B2623FB00A02AF4 /* Train */,
+				027884EE2B26240100A02AF4 /* Exercise */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		027884ED2B2623FB00A02AF4 /* Train */ = {
+			isa = PBXGroup;
+			children = (
+				027884E72B26229200A02AF4 /* Train.swift */,
+				027884EB2B2623F100A02AF4 /* CompletedTrain.swift */,
+				027884F12B26249700A02AF4 /* Serie.swift */,
+			);
+			path = Train;
+			sourceTree = "<group>";
+		};
+		027884EE2B26240100A02AF4 /* Exercise */ = {
+			isa = PBXGroup;
+			children = (
+				027884E92B2623D800A02AF4 /* Exercise.swift */,
+				027884EF2B26245C00A02AF4 /* CompletedExercise.swift */,
+			);
+			path = Exercise;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -214,7 +253,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				027884C82B225C1400A02AF4 /* MuscleMinderApp.swift in Sources */,
+				027884EA2B2623D800A02AF4 /* Exercise.swift in Sources */,
+				027884E82B26229200A02AF4 /* Train.swift in Sources */,
+				027884EC2B2623F100A02AF4 /* CompletedTrain.swift in Sources */,
+				027884F22B26249700A02AF4 /* Serie.swift in Sources */,
 				027884E52B225F0F00A02AF4 /* BaseView.swift in Sources */,
+				027884F02B26245C00A02AF4 /* CompletedExercise.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
