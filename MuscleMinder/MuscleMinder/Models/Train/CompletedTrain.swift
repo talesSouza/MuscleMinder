@@ -7,7 +7,7 @@
 
 import Foundation
 
-struct CompletedTrain {
+public struct CompletedTrain {
     
     // MARK: - Stored Properties
     let train: Train
